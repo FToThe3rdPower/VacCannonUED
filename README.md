@@ -7,15 +7,15 @@ There is some evidence that suggests that these projectiles can reach speeds gre
 
 [Link to our project canvas](https://git.science.uu.nl/ued2023/ued2023/-/blob/main/projects/VacuumCannon_MantasMatthijsTrey/project_canvas_MantasTreyMatthijs.md?ref_type=heads)
 
-<!---
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
---->
 
 # Visuals
 Here's a .gif of our first test shot:
 
 ![Our first test shot](testShot.gif)
+
+Shot captured with High speed camera:
+
+![Video1](Data/V1.mp4)
 
 
 Here is the inventor/designer's own cannon in action: https://www.youtube.com/watch?v=0DKWSXstXuc
@@ -23,9 +23,6 @@ Here is the inventor/designer's own cannon in action: https://www.youtube.com/wa
 ![https://makeagif.com/i/30KwB3](crank_piston_vacuum_cannon.gif)
 
 
-<!---
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
---->
 
 # Table of contents
 
@@ -56,11 +53,16 @@ $`\textcolor{red}{\text{Be safe.}}`$
 #### Cannon
 - Ping-pong balls. We needed 38mm orange balls so they would travel through our non-precision tubing smoothly and be easily tracked.
 - 1.82m long, Ø≈40mm clear tubing for the barrel of the cannon. We used acrylic, but based on the short lifespan of the 5mm tube, we recommend trying other materials.
-- Table or board long enough to mount your barrel securly. We used a long and narrow board so it can be stored on shelving when not in use and clamped down to a table for use.
+- Table or board long enough to mount your barrel securely. We used a long and narrow board so it can be stored on shelving when not in use and clamped down to a table for use.
 - Wood, plastic, or a sturdy material to mount your barrel to the board/table. We used scrap plywood.
 - Metal tabs to prevent the barrel from sliding out of the mounts when pulling the vacuum.
 - Plastic or wood cylinder that's softer than your tube so it won't scratch it inside, ruining the seal. We used a scrap PVC cylinder, turned on the lathe to seal in the tube without getting stuck.
 - O-ring(s) for sealing the piston in the tube.
+- Lubricant to maintain a seal whilst maintaining piston mobility. We used Kruipolie.
+- A rope, hook or clip, and eyelet screw to pull the piston back, while allowing the rope to detach for reloading.
+- A target or 'beam dump' to catch the ball and prevent damaging objects or injuring others. We used a canvas bag.
+- A spool to wind the rope on. We used a partially disassembled boat winch so it didn't have any gearing, but could hold the load.
+- A drill to turn the spool fast enough that the piston is pulled back, 'creating' the vacuum as quickly as possible.
 
 #### Camera 
 - [Chronos 1.4 monochrome 8GB running software build 0.7.02 high-speed camera](https://www.krontech.ca/product/chronos-1-4-high-speed-camera/)
@@ -70,14 +72,15 @@ $`\textcolor{red}{\text{Be safe.}}`$
 - BNC to alligator cable
 - LED to flash
 
+#### Lighting
+- Halogen Floodlights for backlighting the shot for maximum contrast.
+- A sheet of opaque plastic used as a diffuser to spread the light over the length of the cannon better.
+
 
 ## Recipe
 ### Setup
-- Take the lights off of the LPL project lockbox storage shelf
-- Take the cannon off of the LPL project lockbox storage shelf
-- Grab the lockbox labeled Trey for the camera and accoutrements 
 - Place the cannon on a table $`\textcolor{red}{\text{pointed away from people.}}`$
-- Pick up acrylic sheet covered by a white plastic from material storage area in LPL and place it between the tube mounts and the metal support on the cannon holder.
+- Pick up acrylic sheet covered by a white plastic from material storage area in LPL and place it between the tube mounts and the metal support on the cannon holder to diffuse the light.
 - Put the lights behind the sheet (setup shown in the photo below).
 - $`\textcolor{red}{\text{KEEP LIGHTS ON ONLY FOR SHORT PERIODS OF TIME!!!}}`$ as they will heat the tube up until the piston cannot be pulled through.
  
@@ -115,9 +118,6 @@ $`\textcolor{red}{\text{Be safe.}}`$
 
 - Ensure the drill is in 'drilling mode' as shown:
 
-<!--
-This needs to get cropped
--->
 
 ![Mode](Setup addons/Mode.jpeg)
 
@@ -130,18 +130,12 @@ This needs to get cropped
 
 ### Camera
 
-- Turn on the camera by pressing the power button and wait for it to boot
-- If it does not power on or dies, the charger cable can be found in the experiment equipment box. Please connect it to a lab power supply and appropriately adjust the output (labeled on the camera) before turning the supply on. 
-- When it has finished booting, go to Record settings (at the top right corner) and change the framerate to 8000 (in the Record settings botom left), $`\textcolor{red}{\text{press OK}}`$ or it will not actually adjust the frame rate.
-- Aim the camera at the camera at the cannon so that it can see the whole tube.
-- To start the recording press the Big Red Button on the camera, to stop it press it again (if you want to test it you can, just restart the camera for the real shot to start with free memory, as it will ask you for confirmation to overwrite it and ruin your data collection).
-- To save the video after taking it go to Play (option on the right side of the screen), insert the USB sitck from the "Trey" box into the ESATA/USB port on the side, press settings in the Play menu to ensure that it sees the drive, exit settings, press Save and wait for the process to finish (Red verical line will change to green), safely remove the USB (Play->Settings)
-- Ensure that data is saved and turn off the camera to save battery
-
+- Set your camera up to capture the whole length of the barrel. For us that was a few metres away.
+- Make sure you have set it to a high enough frame rate to capture the movement of the ball, we used approximately 9,000 fps, but would have gone higher if we had the capability.
 
 ### Firing procedure
 
-- **GET PERMISSION TO FIRE.** It *will* scare people in LPL.
+- **CLEAR THE AREA BEFORE FIRING.** It *will* scare people.
 - Check that the drill will rotate clockwise with a quick squeeze of the trigger.
 - Ensure the camera is on.
 - Turn on the lights.
@@ -227,51 +221,43 @@ We filmed 1000 frames of the 900 Hz LED pulses, manually counted the frames the 
 # Results
 ## Data
 
-We obtained some data from a misfire and analysed it, the results are in the [Data1](Data/V1.txt) and [Data2](Data/V2.txt).txt file.
+We obtained some data from a misfire and analysed it, the results are in this folder [Data](Data/Vx_data/) it contains all our data colected and graphs, Videos can be found [Here](Data/)
 
-- Velocity as a function of time.
+- Velocity as a function of distance.
 
-<!---
-These plots and videos need to get replaced with the better ones
--->
 
-![Time1](Data/Time1.png)
-
-![Time2](Data/Time2.png)
+![All](Data/Vx_data/All.png)
 
 - Videos of the shots
 
-![Video1](Data/V1.mp4)
+![Video1](Data/V1.mp4) ![Video2](Data/V2.mp4) ![Video3](Data/V3.mp4) ![Video4](Data/V4.mp4)
 
-![Video2](Data/V2.mp4)
+Unfortunately, our vacuum tube broke after only 4 successful data-taking fires, cracking under the pressure difference. Although this was a massive disappointment, our 4 successful attempts showed the clear pattern that we expected. The projectile speed increased asymptotically towards a maximum velocity. However, this velocity seemed to be significantly above the speed of sound, which was considered to be the upper bound of what was possible for this kind of system. We also saw significant drop in velocity towards the end of the tube, which we expect to be blowby of air around our projectile, which can never perfectly seal itself in the tube.
 
-The maximum velocity of the first set of data is around 470 m/s, where as the second set has around 450 m/s.
+
+# Conclusions 
+
+Given our limited data due to the cannon’s barrel failure, our last fire of the cannon showed a slight decrease in the speed of our projectile which suggests that our vacuum tube may have already been slightly compromised. Differences in the speeds of different fires are most likely due to differing imperfect vacuum conditions due to the complexity of sealing our vacuum as well as firing the piston consistently. In every trial we were still able to obtain results that showed what we expected - the vacuum cannon can fire projectiles well above the speed of sound.
+
+
+Working with failing equipment and finding solutions is inevitable and important in any research setting. Other setbacks we experienced were less severe, but we were lucky to have significant data at the time of our catastrophic failure. Our experiment is an excellent example of why it is not only important to test theory experimentally but also to repeat previously performed experiments. Too often we accept that our models are correct and that previous experiments were performed perfectly. Double-check
 
 <!--
 Luckily a misfire of a vacuum cannon only leads to underperformance, reducing danger, the opposite of regular explosive propellant cannons. There are many different ways the cannon can misfire, including a leaky or prematurely broken seal, a loose ball that doesn't stick and travel with the piston to the back of the cannon, or a stuck piston that stays in the entrance of the tube to restrict the flow of air into the barrel.
 -->
 
 
-<!--
 # Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
+The vacuum cannon is a really affordable way to accelerate small objects to a couple hundred meters/sec in a relatively safe way. Because of this, it's become pretty popular for backyard scientists and YouTube engineers. Some examples include our inpiration, [NightHawkInLight](https://youtu.be/0DKWSXstXuc?si=jWNSEmHO73-EYwSq) and others like [SmarterEveryDay with Mark Rober](https://www.youtube.com/watch?v=JT0wx27J9xs), [Sixty Symbols](https://www.youtube.com/watch?v=zwdo-2gOTyM), & [The Action Lab](https://www.youtube.com/watch?v=ONjlDPKdiVU/).
 
 # Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
+We used NighHawkInLight's [Instructables](https://www.instructables.com/Rapid-Reload-Vacuum-Cannon-Magnetic-Piston-No-Burs/) and [video](https://youtu.be/0DKWSXstXuc?si=jWNSEmHO73-EYwSq) as a guide. The main theory we relied on was [Ayars and Buchholtz; Am. J. Phys. 72, 961–963, 2004](https://doi.org/10.1119/1.1710063)
 
 # Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
-
-# Contributing
-State if you are open to contributions and what your requirements are for accepting them.
-
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
--->
+Our time for working on this project has come to an end, we are not currently able to devote any more time to this project or accept contributions. Please feel free to build on our work though.
 
 # Authors and acknowledgment
-This cannon was created for Uni Utrecht's Experiment Design course, taught by Sanli Faez and Mariia Selina, as part of the Authors' MSc courses. It could not have been built without the help, expertise, equipment, and craftsmanship from the fine people at Lili's Proto Lab & NPEC, including – but not limited to – Otto van de Beek, Pieter Kooijman, Rudi Borkus, and Vin.
+This cannon was created for Uni Utrecht's Experiment Design course, taught by Sanli Faez and Mariia Selina, as part of the Authors' MSc courses. It could not have been built without the help, expertise, equipment, and craftsmanship from the fine people at Lili's Proto Lab & NPEC, including – but not limited to – Otto van de Beek, Pieter Kooijman, Rudi Borkus, and Vin. The build team was Mantas Rebžys, Matthijs Uleman, and Trey Grijalva.
 
 The inspiration is from Prof. Em. Louis Buchholtz and Prof. Eric Ayars's work on Vacuum cannons in 2005. Dr. Buchholtz continued to develop the math, culminating in the publishing of a book, [On the trail of Blackbody radiation](https://a.co/d/4JJKZKK)
 
@@ -282,5 +268,5 @@ The inspiration is from Prof. Em. Louis Buchholtz and Prof. Eric Ayars's work on
 A member of our dev team fell ill and could not complete our camera trigger circuit, requiring the manual activation of the camera.
 
 $`\textcolor{red}{\text{The cannon's barrel has developed cracks and is no longer safe to operate.}}`$
-Unfortunately, this leaves our dataset far from robust, as we only have 3 quality runs plus the run where it cracked.
+Unfortunately, this leaves our dataset far from robust, as we only have a couple of quality runs.
 
