@@ -70,7 +70,7 @@ $`\textcolor{red}{\text{Be safe.}}`$
 ##### Camera Calibration
 - 20mHz or better function generator set to square wave, 900Hz
 - BNC to alligator cable
-- LED to flash
+- LED to flash at the camera
 
 #### Lighting
 - Halogen Floodlights for backlighting the shot for maximum contrast.
@@ -139,7 +139,7 @@ $`\textcolor{red}{\text{Be safe.}}`$
 - Check that the drill will rotate clockwise with a quick squeeze of the trigger.
 - Ensure the camera is on.
 - Turn on the lights.
-- Ensure camera sees what you want (you can focus the lense and change the aparature(how much light it gets)).
+- Ensure the camera sees what you want (you can focus the lens and change the aperture (how much light it gets)).
 - Warn people that you are firing.
 - Press the camera's record button.
 - Hold the drill's trigger down and enjoy.
@@ -148,20 +148,20 @@ $`\textcolor{red}{\text{Bang!!!}}`$
 
 - Quickly stop the recording, the camera will fill the RAM in seconds
 - Turn off the lights
-- Save the video to USB: go to Play (option on the right side of the screen), insert the USB sitck from the "Trey" box into the ESATA/USB port on the side, press settings in the Play menu to ensure that it sees the drive, exit settings, press Save and wait for the process to finish (Red verical line will change to green), safely remove the USB (Play->Settings)
+- Save the video to USB: go to Play (option on the right side of the screen), insert the USB stick from the "Trey" box into the ESATA/USB port on the side, press settings in the Play menu to ensure that it sees the drive, exit settings, press Save and wait for the process to finish (Red vertical line will change to green), safely remove the USB (Play->Settings)
 - Ensure that data is saved and turn off the camera to save battery
-- Transfer the video to computer for analysis
+- Transfer the video to the computer for analysis
 
 ### Software
 - Download [Tracker](https://physlets.org/tracker/) from: https://physlets.org/tracker/
 
-Tracker is an free, open-source (GNU GPL3) video analysis software by Douglas Brown, Wolfgang Christian, Robert M Hanson. 
+Tracker is a free, open-source (GNU GPL3) video analysis software by Douglas Brown, Wolfgang Christian, and Robert M Hanson. 
 
 It works using FDM, the finite difference method for velocity is defined in the program as v[i] = (x[i+1] - x[i-1]) / (2*dt). So it finds the mean velocity using 2 position steps.
 
 #### Software instructions
 - Open Tracker
-- Upload video on Tracker by selecting Open File Chooser and navigating to the file.
+- Upload the video on Tracker by selecting Open File Chooser and navigating to the file.
 
 ![1](Tracker software assets/1.png)
 
@@ -173,8 +173,8 @@ It works using FDM, the finite difference method for velocity is defined in the 
 
 ![3](Tracker software assets/3.png)
 
-- Drag the ends of the calibration stick to some place of the experimental setup which length is known and set the length on the calibration stick in meters.
-- Select Track -> New -> Point Mass, then edit the mass to 0.0027.
+- Drag the ends of the calibration stick to a known length on the experiment setup and enter the length on the calibration stick in meters.
+- Select Track -> New -> Point Mass, then edit the mass to 0.0027g.
 
 ![4](Tracker software assets/4.png)
 
@@ -191,7 +191,7 @@ It works using FDM, the finite difference method for velocity is defined in the 
 
 ![7](Tracker software assets/7.png)
 
-- It will open the window shown below, make sure time value is selected as shown and change the Format to 0.000 add as many zeros after the decimal point as needed to make time values in the table different (the table updates real-time so it is not difficult to tell how many are needed).
+- It will open the window shown below, make sure the time value is selected as shown and change the Format to 0.000 add as many zeros after the decimal point as needed to make time values in the table different (the table updates real-time so it is not difficult to tell how many are needed).
 
 ![8](Tracker software assets/8.png)
 
@@ -203,7 +203,7 @@ It works using FDM, the finite difference method for velocity is defined in the 
 
 ![10](Tracker software assets/10.png)
 
-- Change the delimiter to comma.
+- Change the delimiter to "comma".
 
 ![11](Tracker software assets/11.png)
 
@@ -216,12 +216,12 @@ Python analysis.
 
 # Camera Calibration
 To confirm the frame rate of the camera we filmed an LED flashing at 900Hz and compared the time per frame according to the camera and the duration of a frame based on the LED pulses.
-We filmed 1000 frames of the 900 Hz LED pulses, manually counted the frames the LED was on and off to see it was on for 5 and off for 5 frames, which is consistent within 0.06% with the camera's timestamps and 8985 fps setting.
+We filmed 1000 frames of the 900 Hz LED pulses, and manually counted the frames the LED was on and off to see if it was on for 5 and off for 5 frames, which is consistent within 0.06% with the camera's timestamps and 8985 fps setting.
 
 # Results
 ## Data
 
-We obtained some data from a misfire and analysed it, the results are in this folder [Data](Data/Vx_data/) it contains all our data colected and graphs, Videos can be found [Here](Data/)
+We obtained some data from a misfire and analyzed it, the results are in this folder [Data](Data/Vx_data/) it contains all our data collected and graphs, Videos can be found [Here](Data/)
 
 - Velocity as a function of distance.
 
@@ -232,7 +232,7 @@ We obtained some data from a misfire and analysed it, the results are in this fo
 
 ![Video1](Data/V1.mp4) ![Video2](Data/V2.mp4) ![Video3](Data/V3.mp4) ![Video4](Data/V4.mp4)
 
-Unfortunately, our vacuum tube broke after only 4 successful data-taking fires, cracking under the pressure difference. Although this was a massive disappointment, our 4 successful attempts showed the clear pattern that we expected. The projectile speed increased asymptotically towards a maximum velocity. However, this velocity seemed to be significantly above the speed of sound, which was considered to be the upper bound of what was possible for this kind of system. We also saw significant drop in velocity towards the end of the tube, which we expect to be blowby of air around our projectile, which can never perfectly seal itself in the tube.
+Unfortunately, our vacuum tube broke after only 4 successful data-taking fires, cracking under the pressure difference. Although this was a massive disappointment, our 4 successful attempts showed the clear pattern that we expected. The projectile speed increased asymptotically towards a maximum velocity. However, this velocity seemed to be significantly above the speed of sound, which was considered to be the upper bound of what was possible for this kind of system. We also saw a significant drop in velocity towards the end of the tube, which we expect to be blowby of air around our projectile, which can never perfectly seal itself in the tube.
 
 
 # Conclusions 
@@ -259,7 +259,7 @@ Our time for working on this project has come to an end, we are not currently ab
 # Authors and acknowledgment
 This cannon was created for Uni Utrecht's Experiment Design course, taught by Sanli Faez and Mariia Selina, as part of the Authors' MSc courses. It could not have been built without the help, expertise, equipment, and craftsmanship from the fine people at Lili's Proto Lab & NPEC, including – but not limited to – Otto van de Beek, Pieter Kooijman, Rudi Borkus, and Vin. The build team was Mantas Rebžys, Matthijs Uleman, and Trey Grijalva.
 
-The inspiration is from Prof. Em. Louis Buchholtz and Prof. Eric Ayars's work on Vacuum cannons in 2005. Dr. Buchholtz continued to develop the math, culminating in the publishing of a book, [On the trail of Blackbody radiation](https://a.co/d/4JJKZKK)
+The inspiration is from Prof. Em. Louis Buchholtz and Prof. Eric Ayars's work on Vacuum cannons in 2004. Dr. Buchholtz continued to develop the math, culminating in the publishing of a book, [On the trail of Blackbody radiation](https://a.co/d/4JJKZKK)
 
 # License
 [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/) has penetrated from [NightHawkInLight's work on Instructables.](https://www.instructables.com/Rapid-Reload-Vacuum-Cannon-Magnetic-Piston-No-Burs/)
