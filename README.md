@@ -84,7 +84,7 @@ $`\textcolor{red}{\text{Be safe.}}`$
 
 - Spray the insides of the tube with generous amounts of penetrating oil for the best seal (shown in the picture).
 
-![Oil](Setup addons/Oil.jpeg)
+![Oil](https://github.com/FToThe3rdPower/VacCannonUED/blob/main/Setup%20addons/Oil.jpeg))
 
 - Follow the instructions shown in the video in order to prepare the cannon for firing.
 
@@ -94,34 +94,34 @@ $`\textcolor{red}{\text{Be safe.}}`$
 - Attach the piston to the line and place it in the tube
 - Firmly place the ball on the sticky end of the piston and slowly pull on the line or turn the winch until the ball is just inside the end of the cannon. The closer to the end the ball is the stronger the vacuum will be.
 
-![Ball_place](Setup addons/Ball_place.jpeg)
+![Ball_place](https://github.com/FToThe3rdPower/VacCannonUED/blob/main/Setup%20addons/Ball_place.jpeg)
 
 - Ensure that the line feeds to the top of the winch's drum:
 
-![Winch](Setup addons/Winch.jpeg)
+![Winch](https://github.com/FToThe3rdPower/VacCannonUED/blob/main/Setup%20addons/Winch.jpeg)
 
 - Make the burst seal as shown in the video, the grease used is in the picture below.
 
-![Grease](Setup addons/Grease.jpeg)
+![Grease](https://github.com/FToThe3rdPower/VacCannonUED/blob/main/Setup%20addons/Grease.jpeg)
 
 - Place the bag on the end of the cannon and ziptie it (to undo the ziptie follow the Tutorial video, place a flat screwdriver where the ziptie is locked and undo it)
 
-![Zip](Setup addons/Zip.jpeg)
+![Zip](https://github.com/FToThe3rdPower/VacCannonUED/blob/main/Setup%20addons/Zip.jpeg)
 
 - Connect the drill to the winch, ensuring the chuck is nice and tight so the winch won't slip while the drill turns.
 
-![Drill](Setup addons/Drill.jpeg)
+![Drill](https://github.com/FToThe3rdPower/VacCannonUED/blob/main/Setup%20addons/Drill.jpeg)
 
 - Ensure the drill is in 'drilling mode' as shown:
 
 
-![Mode](Setup addons/Mode.jpeg)
+![Mode](https://github.com/FToThe3rdPower/VacCannonUED/blob/main/Setup%20addons/Mode.jpeg)
 
 
 - Place the camera on a tripod or platform approximately level with the cannon so it can see the entire length of the tube. Filming less than the entire length will result in less data.
 
-![Camera](Setup addons/Camera.jpeg)
-![Distance](Setup addons/Distance.jpeg)
+![Camera](https://github.com/FToThe3rdPower/VacCannonUED/blob/main/Setup%20addons/Camera.jpeg)
+![Distance](https://github.com/FToThe3rdPower/VacCannonUED/blob/main/Setup%20addons/Distance.jpeg)
 
 
 ### Camera
@@ -157,49 +157,49 @@ It works using FDM, the finite difference method for velocity is defined in the 
 - Open Tracker
 - Upload the video on Tracker by selecting Open File Chooser and navigating to the file.
 
-![1](Tracker software assets/1.png)
+![1](https://github.com/FToThe3rdPower/VacCannonUED/blob/main/Tracker%20software%20assets/1.png)
 
 - Move the slider to the frame where the ball enters the image, select Set start frame to the slider, then similarly set end frame to the frame ball leaves the frame of the video.
 
-![2](Tracker software assets/2.png)
+![2](https://github.com/FToThe3rdPower/VacCannonUED/blob/main/Tracker%20software%20assets/2.png)
 
 - Select Calibration Stick
 
-![3](Tracker software assets/3.png)
+![3](https://github.com/FToThe3rdPower/VacCannonUED/blob/main/Tracker%20software%20assets/3.png)
 
 - Drag the ends of the calibration stick to a known length on the experiment setup and enter the length on the calibration stick in meters.
 - Select Track -> New -> Point Mass, then edit the mass to 0.0027g.
 
-![4](Tracker software assets/4.png)
+![4](https://github.com/FToThe3rdPower/VacCannonUED/blob/main/Tracker%20software%20assets/4.png)
 
 - In the frame where the ball is visible press Shift + Ctrl + Left click (on the approximate centre of the ball). A window will pop out. Select Search (This will search for your selected object in the selected range of frames)
 
-![5](Tracker software assets/5.png)
+![5](https://github.com/FToThe3rdPower/VacCannonUED/blob/main/Tracker%20software%20assets/5.png)
 
 - The software may miss the ball, the marks then need to be dragged to where the ball is in that frame (select the frame you want with the slider) if the ball is not detected at all Shift + Ctrl + Left click on its location.
 - A table will appear in the lower right corner, select Columns and check column "v" to see the velocity.
 
-![6](Tracker software assets/6.png)
+![6](https://github.com/FToThe3rdPower/VacCannonUED/blob/main/Tracker%20software%20assets/6.png)
 
 - If you see any time values that are the same in the table, right-click on the table and press on formats.
 
-![7](Tracker software assets/7.png)
+![7](https://github.com/FToThe3rdPower/VacCannonUED/blob/main/Tracker%20software%20assets/7.png)
 
 - It will open the window shown below, make sure the time value is selected as shown and change the Format to 0.000 add as many zeros after the decimal point as needed to make time values in the table different (the table updates real-time so it is not difficult to tell how many are needed).
 
-![8](Tracker software assets/8.png)
+![8](https://github.com/FToThe3rdPower/VacCannonUED/blob/main/Tracker%20software%20assets/8.png)
 
 - Export the data:
 
-![9](Tracker software assets/9.png)
+![9](https://github.com/FToThe3rdPower/VacCannonUED/blob/main/Tracker%20software%20assets/9.png)
 
 - Select columns and thick boxes that are selected in the picture: 
 
-![10](Tracker software assets/10.png)
+![10](https://github.com/FToThe3rdPower/VacCannonUED/blob/main/Tracker%20software%20assets/10.png)
 
 - Change the delimiter to "comma".
 
-![11](Tracker software assets/11.png)
+![11](https://github.com/FToThe3rdPower/VacCannonUED/blob/main/Tracker%20software%20assets/11.png)
 
 - Finish it by clicking Save As… and saving it as .txt.
 
@@ -224,7 +224,7 @@ We obtained some data from a misfire and analyzed it, the results are in this fo
 
 - Videos of the shots
 
-![Video1](Data/V1.mp4) ![Video2](Data/V2.mp4) ![Video3](Data/V3.mp4) ![Video4](Data/V4.mp4)
+![Video1](https://github.com/FToThe3rdPower/VacCannonUED/blob/main/Data/V1.mp4) ![Video2](https://github.com/FToThe3rdPower/VacCannonUED/blob/main/Data/V2.mp4) ![Video3]([Data/V3.mp4](https://github.com/FToThe3rdPower/VacCannonUED/blob/main/Data/V3.mp4)) ![Video4](https://github.com/FToThe3rdPower/VacCannonUED/blob/main/Data/V4.mp4)
 
 Unfortunately, our vacuum tube broke after only 4 successful data-taking fires, cracking under the pressure difference. Although this was a massive disappointment, our 4 successful attempts showed the clear pattern that we expected. The projectile speed increased asymptotically towards a maximum velocity. However, this velocity seemed to be significantly above the speed of sound, which was considered to be the upper bound of what was possible for this kind of system. We also saw a significant drop in velocity towards the end of the tube, which we expect to be blowby of air around our projectile, which can never perfectly seal itself in the tube.
 
