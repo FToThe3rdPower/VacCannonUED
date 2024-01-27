@@ -15,7 +15,7 @@ Here's a .gif of our first test shot:
 
 Shot captured with High-speed camera:
 
-![First Shot](https://github.com/FToThe3rdPower/VacCannonUED/blob/main/Data/V1.mp4?raw=true)
+![First Shot](https://github.com/FToThe3rdPower/VacCannonUED/blob/main/Data/V1.mp4)
 
 
 Here is the inventor/designer's own cannon in action: https://www.youtube.com/watch?v=0DKWSXstXuc
@@ -80,7 +80,7 @@ $`\textcolor{red}{\text{Be safe.}}`$
 - Put the lights behind the sheet (setup shown in the photo below).
 - $`\textcolor{red}{\text{KEEP LIGHTS ON ONLY FOR SHORT PERIODS OF TIME!!!}}`$ as they will heat the tube up until the piston cannot be pulled through.
  
-![Lights](Setup addons/Lights.jpeg)
+![Lights](./Setup addons/Lights.jpeg)
 
 - Spray the insides of the tube with generous amounts of penetrating oil for the best seal (shown in the picture).
 
