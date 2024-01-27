@@ -3,7 +3,7 @@
 # Description
 The premise of our experiment is to measure the velocity of a ping pong ball within a pumpless vacuum cannon based on [NightHawkInLight's work on Instructables.](https://www.instructables.com/Rapid-Reload-Vacuum-Cannon-Magnetic-Piston-No-Burs/) To obtain our position and time data, and by extension velocity data, we use a high-speed camera.
 
-There is some evidence that suggests that these projectiles can reach speeds greater than models predict. We set out to build a robust dataset by measuring near-instantaneous velocity of the ball while it's still accelerating within the barrel. This requires replication and mopdification, hopefully that can shed more light on whether these models correctly predict the limit of projectile velocity.
+There is some evidence that suggests that these projectiles can reach speeds greater than models predict. We set out to build a robust dataset by measuring the near-instantaneous velocity of the ball while it's still accelerating within the barrel. This requires replication and modification, hopefully that can shed more light on whether these models correctly predict the limit of projectile velocity.
 
 [Link to our project canvas](https://git.science.uu.nl/ued2023/ued2023/-/blob/main/projects/VacuumCannon_MantasMatthijsTrey/project_canvas_MantasTreyMatthijs.md?ref_type=heads)
 
@@ -13,7 +13,7 @@ Here's a .gif of our first test shot:
 
 ![Our first test shot](testShot.gif)
 
-Shot captured with High speed camera:
+Shot captured with High-speed camera:
 
 ![Video1](Data/V1.mp4)
 
@@ -29,7 +29,7 @@ Here is the inventor/designer's own cannon in action: https://www.youtube.com/wa
 [[_TOC_]]
 
 # Installation
-We used NighHawkInLight's [Instructables](https://www.instructables.com/Rapid-Reload-Vacuum-Cannon-Magnetic-Piston-No-Burs/) and [video](https://youtu.be/0DKWSXstXuc?si=jWNSEmHO73-EYwSq) as a guide for our design. We were very lucky to find a 1.82m by ≈40mm internal diameter tube laying around the shop to use as our barrel, a ≈40mm diameter pvc cylinder, and wood for mounting hardware to craft our cannon. We'd like to give a huge shout-out to [Lili's Proto Lab](https://lilis-protolab.sites.uu.nl/) for supplying us with the  materials, tools, and access to skilled technicians because none of this could have happened without [LPL](https://lilis-protolab.sites.uu.nl/).
+We used NighHawkInLight's [Instructables](https://www.instructables.com/Rapid-Reload-Vacuum-Cannon-Magnetic-Piston-No-Burs/) and [video](https://youtu.be/0DKWSXstXuc?si=jWNSEmHO73-EYwSq) as a guide for our design. We were very lucky to find a 1.82m by ≈40mm internal diameter tube laying around the shop to use as our barrel, a ≈40mm diameter PVC cylinder, and wood for mounting hardware to craft our cannon. We'd like to give a huge shout-out to [Lili's Proto Lab](https://lilis-protolab.sites.uu.nl/) for supplying us with the  materials, tools, and access to skilled technicians because none of this could have happened without [LPL](https://lilis-protolab.sites.uu.nl/).
 
 
 # Safety
@@ -80,7 +80,7 @@ $`\textcolor{red}{\text{Be safe.}}`$
 ## Recipe
 ### Setup
 - Place the cannon on a table $`\textcolor{red}{\text{pointed away from people.}}`$
-- Pick up acrylic sheet covered by a white plastic from material storage area in LPL and place it between the tube mounts and the metal support on the cannon holder to diffuse the light.
+- Pick up the opaque sheet and place it to diffuse the light.
 - Put the lights behind the sheet (setup shown in the photo below).
 - $`\textcolor{red}{\text{KEEP LIGHTS ON ONLY FOR SHORT PERIODS OF TIME!!!}}`$ as they will heat the tube up until the piston cannot be pulled through.
  
@@ -148,7 +148,7 @@ $`\textcolor{red}{\text{Bang!!!}}`$
 
 - Quickly stop the recording, the camera will fill the RAM in seconds
 - Turn off the lights
-- Save the video to USB: go to Play (option on the right side of the screen), insert the USB stick from the "Trey" box into the ESATA/USB port on the side, press settings in the Play menu to ensure that it sees the drive, exit settings, press Save and wait for the process to finish (Red vertical line will change to green), safely remove the USB (Play->Settings)
+- Save the video to USB: go to Play (option on the right side of the screen), insert the USB stick from the "Trey" box into the ESATA/USB port on the side, and press settings in the Play menu to ensure that it sees the drive, exit settings, press Save and wait for the process to finish (Red vertical line will change to green), safely remove the USB (Play->Settings)
 - Ensure that data is saved and turn off the camera to save battery
 - Transfer the video to the computer for analysis
 
@@ -257,7 +257,7 @@ We used NighHawkInLight's [Instructables](https://www.instructables.com/Rapid-Re
 Our time for working on this project has come to an end, we are not currently able to devote any more time to this project or accept contributions. Please feel free to build on our work though.
 
 # Authors and acknowledgment
-This cannon was created for Uni Utrecht's Experiment Design course, taught by Sanli Faez and Mariia Selina, as part of the Authors' MSc courses. It could not have been built without the help, expertise, equipment, and craftsmanship from the fine people at Lili's Proto Lab & NPEC, including – but not limited to – Otto van de Beek, Pieter Kooijman, Rudi Borkus, and Vin. The build team was Mantas Rebžys, Matthijs Uleman, and Trey Grijalva.
+This cannon was created for Uni Utrecht's Experiment Design course, taught by Sanli Faez and Mariia Selina, as part of the Authors' MSc courses. It could not have been built without the help, expertise, equipment, and craftsmanship of the fine people at Lili's Proto Lab & NPEC, including – but not limited to – Otto van de Beek, Pieter Kooijman, Rudi Borkus, and Vin. The build team was Mantas Rebžys, Matthijs Uleman, and Trey Grijalva.
 
 The inspiration is from Prof. Em. Louis Buchholtz and Prof. Eric Ayars's work on Vacuum cannons in 2004. Dr. Buchholtz continued to develop the math, culminating in the publishing of a book, [On the trail of Blackbody radiation](https://a.co/d/4JJKZKK)
 
