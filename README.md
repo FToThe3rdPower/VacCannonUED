@@ -193,7 +193,8 @@ It works using FDM, the finite difference method for velocity is defined in the 
 
 ![9](https://github.com/FToThe3rdPower/VacCannonUED/blob/main/Tracker%20software%20assets/9.png)
 
-- Select columns and thick boxes that are selected in the picture: 
+- Select columns and thick boxes that are selected in the picture as well as x position and velocity in x direction (vx): 
+
 
 ![10](https://github.com/FToThe3rdPower/VacCannonUED/blob/main/Tracker%20software%20assets/10.png)
 
