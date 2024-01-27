@@ -15,7 +15,7 @@ Here's a .gif of our first test shot:
 
 Shot captured with High-speed camera:
 
-![Video1](Data/V1.mp4)
+![Video1](https://github.com/FToThe3rdPower/VacCannonUED/blob/main/Data/V1.mp4)
 
 
 Here is the inventor/designer's own cannon in action: https://www.youtube.com/watch?v=0DKWSXstXuc
