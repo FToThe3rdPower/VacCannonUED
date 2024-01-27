@@ -80,7 +80,7 @@ $`\textcolor{red}{\text{Be safe.}}`$
 - Put the lights behind the sheet (setup shown in the photo below).
 - $`\textcolor{red}{\text{KEEP LIGHTS ON ONLY FOR SHORT PERIODS OF TIME!!!}}`$ as they will heat the tube up until the piston cannot be pulled through.
  
-![Lights](./Setup addons/Lights.jpeg)
+![Lights](VacCannonUED/Setup addons/Lights.jpeg)
 
 - Spray the insides of the tube with generous amounts of penetrating oil for the best seal (shown in the picture).
 
