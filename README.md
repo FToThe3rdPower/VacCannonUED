@@ -5,8 +5,6 @@ The premise of our experiment is to measure the velocity of a ping pong ball wit
 
 There is some evidence that suggests that these projectiles can reach speeds greater than models predict. We set out to build a robust dataset by measuring the near-instantaneous velocity of the ball while it's still accelerating within the barrel. This requires replication and modification, hopefully that can shed more light on whether these models correctly predict the limit of projectile velocity.
 
-[Link to our project canvas](https://git.science.uu.nl/ued2023/ued2023/-/blob/main/projects/VacuumCannon_MantasMatthijsTrey/project_canvas_MantasTreyMatthijs.md?ref_type=heads)
-
 
 # Visuals
 Here's a .gif of our first test shot:
