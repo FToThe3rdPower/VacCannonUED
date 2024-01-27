@@ -204,10 +204,11 @@ It works using FDM, the finite difference method for velocity is defined in the 
 
 - Finish it by clicking Save As… and saving it as .txt.
 
-Python analysis. 
-- Drop the data file into the folder with the [Python code](https://git.science.uu.nl/ued2023/ued2023/-/blob/mantas/projects/VacuumCannon_MantasMatthijsTrey/Data_analysis.py) provided in GitLab. 
+#### Python analysis 
+- Drop the data file into the folder with the [Python code](https://github.com/FToThe3rdPower/VacCannonUED/blob/main/Data_analysis.py) provided in top lvl repo folder. 
 - Change the txt variable with the name of the data file.
 - Run the code and the .png format files should be deposited in the code folder with the plots for Velocity vs time and Velocity vs frames.
+- Follow the same instructions with the second file to get Velocity as a function of distance plot with this [Code](https://github.com/FToThe3rdPower/VacCannonUED/blob/main/DataX.py).
 
 # Camera Calibration
 To confirm the frame rate of the camera we filmed an LED flashing at 900Hz and compared the time per frame according to the camera and the duration of a frame based on the LED pulses.
