@@ -46,7 +46,7 @@ $`\textcolor{red}{\text{Be safe.}}`$
 
 ## Ingredients
 ### Software:
-- Tracker
+- [Tracker](https://physlets.org/tracker/)
 - Custom python script to analyze the data
 
 ### Hardware \(Found in LPL box labeled "Trey"\):
@@ -148,8 +148,6 @@ $`\textcolor{red}{\text{Bang!!!}}`$
 
 - Quickly stop the recording, the camera will fill the RAM in seconds
 - Turn off the lights
-- Save the video to USB: go to Play (option on the right side of the screen), insert the USB stick from the "Trey" box into the ESATA/USB port on the side, and press settings in the Play menu to ensure that it sees the drive, exit settings, press Save and wait for the process to finish (Red vertical line will change to green), safely remove the USB (Play->Settings)
-- Ensure that data is saved and turn off the camera to save battery
 - Transfer the video to the computer for analysis
 
 ### Software
@@ -237,10 +235,10 @@ Unfortunately, our vacuum tube broke after only 4 successful data-taking fires, 
 
 # Conclusions 
 
-Given our limited data due to the cannon’s barrel failure, our last fire of the cannon showed a slight decrease in the speed of our projectile which suggests that our vacuum tube may have already been slightly compromised. Differences in the speeds of different fires are most likely due to differing imperfect vacuum conditions due to the complexity of sealing our vacuum as well as firing the piston consistently. In every trial we were still able to obtain results that showed what we expected - the vacuum cannon can fire projectiles well above the speed of sound.
+Given our limited data due to the cannon’s barrel failure, our last shots of the cannon showed decreases in the speed of our projectile which suggests that the barrel had become crasked, leaking air in, compromising the data. Differences in the speeds of different fires are most likely due to differing vacuum conditions due to the complexity of sealing our non-precision barrel as well as firing the piston consistently. In every trial we were still able to obtain results that showed what we expected - the vacuum cannon can fire projectiles at approximately the typical speed of sound in air.
 
 
-Working with failing equipment and finding solutions is inevitable and important in any research setting. Other setbacks we experienced were less severe, but we were lucky to have significant data at the time of our catastrophic failure. Our experiment is an excellent example of why it is not only important to test theory experimentally but also to repeat previously performed experiments. Too often we accept that our models are correct and that previous experiments were performed perfectly. Double-check
+Working with failing equipment and finding solutions is inevitable and important in any research setting. Other setbacks we experienced were less severe, but we were lucky to have significant data at the time of our catastrophic failure. Our experiment is an excellent example of why it is not only important to test theory experimentally but also to repeat previously performed experiments. Too often we accept that our models are correct and that previous experiments were performed perfectly.
 
 <!--
 Luckily a misfire of a vacuum cannon only leads to underperformance, reducing danger, the opposite of regular explosive propellant cannons. There are many different ways the cannon can misfire, including a leaky or prematurely broken seal, a loose ball that doesn't stick and travel with the piston to the back of the cannon, or a stuck piston that stays in the entrance of the tube to restrict the flow of air into the barrel.
