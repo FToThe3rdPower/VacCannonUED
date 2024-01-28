@@ -248,7 +248,7 @@ The vacuum cannon is a really affordable way to accelerate small objects to a co
 We used NighHawkInLight's [Instructables](https://www.instructables.com/Rapid-Reload-Vacuum-Cannon-Magnetic-Piston-No-Burs/) and [video](https://youtu.be/0DKWSXstXuc?si=jWNSEmHO73-EYwSq) as a guide. The main theory we relied on was [Ayars and Buchholtz; Am. J. Phys. 72, 961–963, 2004](https://doi.org/10.1119/1.1710063)
 
 # Roadmap
-Our time for working on this project has come to an end, we are not currently able to devote any more time to this project or accept contributions. Please feel free to build on our work though.
+We are not currently able to devote any more time to this project or accept contributions. However, please feel free to build on our work.
 
 # Authors and acknowledgment
 This cannon was created for Uni Utrecht's Experiment Design course, taught by Sanli Faez and Mariia Selina, as part of the Authors' MSc courses. It could not have been built without the help, expertise, equipment, and craftsmanship of the fine people at Lili's Proto Lab & NPEC, including – but not limited to – Otto van de Beek, Pieter Kooijman, Rudi Borkus, and Vin. The build team was Mantas Rebžys, Matthijs Uleman, and Trey Grijalva.
