@@ -86,7 +86,7 @@ $`\textcolor{red}{\text{Be safe.}}`$
 
 - Follow the instructions shown in the video in order to prepare the cannon for firing.
 
-![Tutorial](Setup addons/Tutorial.mp4)
+![Tutorial](https://youtu.be/aKlfJcxNVkg)
 
 - Unspool and tow the line using the magnets stuck to the winch or support rail.
 - Attach the piston to the line and place it in the tube
