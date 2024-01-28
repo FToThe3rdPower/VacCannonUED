@@ -226,7 +226,7 @@ We obtained some data from a misfire and analyzed it, the results are in this fo
 
 ![Video1](https://github.com/FToThe3rdPower/VacCannonUED/blob/main/Data/V1.mp4) ![Video2](https://github.com/FToThe3rdPower/VacCannonUED/blob/main/Data/V2.mp4) ![Video3]([Data/V3.mp4](https://github.com/FToThe3rdPower/VacCannonUED/blob/main/Data/V3.mp4)) ![Video4](https://github.com/FToThe3rdPower/VacCannonUED/blob/main/Data/V4.mp4)
 
-Unfortunately, our vacuum tube broke after only 4 successful data-taking fires, cracking under the pressure difference. Although this was a massive disappointment, our 4 successful attempts showed the clear pattern that we expected. The projectile speed increased asymptotically towards a maximum velocity. However, this velocity seemed to be significantly above the speed of sound, which was considered to be the upper bound of what was possible for this kind of system. We also saw a significant drop in velocity towards the end of the tube, which we expect to be blowby of air around our projectile, which can never perfectly seal itself in the tube.
+Unfortunately, our vacuum tube broke after only 4 successful data-taking fires, cracking under the pressure difference. Although this was a massive disappointment, our 4 successful attempts showed the clear pattern that we expected. The projectile speed increased asymptotically towards a maximum velocity. However, this velocity seemed to be on the order of the speed of sound in ambient air, which is considered to be the upper bound of what was possible for this kind of system. We also saw a significant drop in velocity towards the end of the tube, which we expected to be blow-by of air around our projectile, which does not perfectly seal in the barrel.
 
 
 # Conclusions 
